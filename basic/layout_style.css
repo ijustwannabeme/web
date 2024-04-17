@@ -1,0 +1,43 @@
+span {
+  border: red solid 2px;
+  background-color: yellow;
+}
+
+.top {
+  position: relative;
+  top: 5px;
+  z-index: 1;
+}
+
+.right {
+  position: relative;
+  right: 5px;
+}
+
+.bottom {
+  position: relative;
+  bottom: 5px;
+}
+
+.left {
+  position: fixed;
+  right: 0;
+}
+
+#absolute {
+  background: yellow;
+  position: absolute;
+  right: 0;
+}
+
+#parent {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+}
+
+#child {
+  position: absolute;
+  right: 0;
+}
