@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+
+#head {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.main {
+  padding: 20px;
+  margin: -20px;
+  font-size: 25px;
+  font-style: italic;
+  background-color: bisque;
+  text-align: center;
+}
+
+span.em {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline; /* 강조하는 텍스트에 밑줄 추가 */
+}
+
+img {
+  vertical-align: middle;
+  border: 8px solid black;
+  border-radius: 200px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+p {
+  margin: 50px;
+}
