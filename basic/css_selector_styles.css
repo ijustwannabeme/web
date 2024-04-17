@@ -11,12 +11,18 @@ body {
   display: inline-block;
 }
 
+#box {
+  background-color: bisque;
+  border: 8px solid yellow;
+  border-radius: 8px;
+}
+
 .main {
   padding: 20px;
   margin: -20px;
   font-size: 25px;
   font-style: italic;
-  background-color: bisque;
+
   text-align: center;
 }
 
