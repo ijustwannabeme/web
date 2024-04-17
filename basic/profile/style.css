@@ -55,7 +55,7 @@ h5 {
 #Tech-Stack img {
   margin: 10px; /* 이미지 사이의 간격을 조정합니다. */
 }
-이렇게 하면 Tech-Stack footer {
+footer {
   background-color: #333;
   color: white;
   text-align: center;
