@@ -22,4 +22,4 @@ jobs:
           aws s3 cp \
             --recursive \
             --region ap-northeast-2 \
-            ./web_advanced/basic/profile s3://{pda-mportfolio}
+            ./basic/profile s3://{pda-mportfolio}
