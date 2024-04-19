@@ -11,18 +11,18 @@
   }
 
   header img {
-    width: 80px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
     margin-bottom: 10px;
   }
 
   #head {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   #head span {
-    margin: 0 10px;
-    font-size: 14px;
+    margin: 0 5px;
+    font-size: 8px;
   }
 
   .logo {
@@ -30,7 +30,7 @@
   }
 
   .logo img {
-    width: 24px;
+    width: 15px;
     margin-right: 5px;
   }
 
