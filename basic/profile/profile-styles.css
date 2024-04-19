@@ -13,7 +13,7 @@ hr {
   height: 3px; /* 수평선의 높이 설정 */
   background-image: linear-gradient(
     to right,
-    #d887ff,
+    #030004,
     #ffffff
   ); /* 그라데이션 배경 설정 */
   margin: 20px auto; /* 위아래 여백 설정 및 수평 가운데 정렬 */
@@ -99,7 +99,7 @@ article span {
 
 /* introduceMyName 클래스 */
 .introduceMyName {
-  background: linear-gradient(120deg, #13b0f5 -2.06%, #e35ef7 100%);
+  background: linear-gradient(120deg, #686969 -2.06%, #bababa 100%);
   background-clip: text;
   color: transparent; /* 글자 색을 투명하게 */
   font-size: 40px; /* 글자 크기 증가 */
@@ -107,6 +107,7 @@ article span {
   text-align: center; /* 가운데 정렬 */
   text-transform: uppercase; /* 대문자 변환 */
   letter-spacing: 2px; /* 글자 간격 설정 */
+  font-style: italic;
 }
 
 /* Profile Image */
@@ -115,8 +116,8 @@ article img {
   justify-content: center;
   border: 5px solid transparent; /* 기본 테두리 설정 */
   border-radius: 50%;
-  border-image: linear-gradient(to right, #efa6e6, #eff7ef) 1; /* 그라데이션 효과 설정 */
-  background: linear-gradient(to right, #efa6e6, #eff7ef);
+  border-image: linear-gradient(to right, #120410, #eff7ef) 1; /* 그라데이션 효과 설정 */
+  background: linear-gradient(to right, #444444, #eff7ef);
 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
