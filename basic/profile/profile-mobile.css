@@ -1,0 +1,113 @@
+/* 모바일 전용 미디어 쿼리 */
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  header img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  #head {
+    margin-top: 20px;
+  }
+
+  #head span {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  .logo {
+    margin-top: 20px;
+  }
+
+  .logo img {
+    width: 24px;
+    margin-right: 5px;
+  }
+
+  article {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  article span {
+    font-size: 20px;
+  }
+
+  .introduceMyName {
+    font-size: 24px;
+  }
+
+  article img {
+    max-width: 200px;
+    margin-top: 20px;
+    border-width: 3px;
+  }
+
+  .tech-stack {
+    padding: 30px;
+  }
+
+  .tech-stack > div:first-child {
+    font-size: 30px;
+  }
+
+  .tech-stack img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+  }
+
+  .projects div {
+    padding: 30px;
+  }
+
+  .projects > div:first-child {
+    font-size: 30px;
+  }
+
+  .card .card-content {
+    width: 150px;
+    padding: 15px;
+  }
+
+  .card .card-content img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .card .card-content p {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 15px;
+  }
+
+  .footer-logo {
+    width: 80px;
+  }
+
+  .footer-contact a {
+    margin: 10px;
+  }
+
+  .footer-links img {
+    width: 20px;
+    margin: 0 3px;
+  }
+
+  .madeby {
+    font-size: 12px;
+  }
+}
