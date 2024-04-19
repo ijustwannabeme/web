@@ -11,18 +11,20 @@
   }
 
   header img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     margin-bottom: 10px;
+
+    /* background-image: url("basic_image/mobileimages.png"); */
   }
 
   #head {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   #head span {
-    margin: 0 5px;
-    font-size: 8px;
+    margin: 0 10px;
+    font-size: 14px;
   }
 
   .logo {
@@ -30,25 +32,25 @@
   }
 
   .logo img {
-    width: 15px;
+    width: 24px;
     margin-right: 5px;
   }
 
   article {
-    flex-direction: column;
-    padding: 20px;
+    flex-direction: row;
+    padding: 10px;
   }
 
   article span {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .introduceMyName {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   article img {
-    max-width: 200px;
+    max-width: 100px;
     margin-top: 20px;
     border-width: 3px;
   }
@@ -58,36 +60,75 @@
   }
 
   .tech-stack > div:first-child {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .tech-stack > div:last-child {
+    margin: auto;
   }
 
   .tech-stack img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
   }
 
   .projects div {
-    padding: 30px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
   }
 
   .projects > div:first-child {
-    font-size: 30px;
+    font-size: 20px;
   }
 
+  .projects .card {
+    display: flex; /* 그리드 대신 플렉스로 변경하여 가로로 나열합니다. */
+    flex-wrap: wrap; /* 화면 크기에 따라 자동으로 줄바꿈합니다. */
+    justify-content: space-around; /* 가운데 정렬합니다. */
+    margin: 20px auto; /* 중앙 정렬 및 간격 조절 */
+    padding: 10px; /* 내부 여백 추가 */
+    background-color: transparent; /* 배경 색상 제거 */
+    border: none; /* 테두리 제거 */
+  }
+
+  /* .card .card-content 스타일 수정 */
   .card .card-content {
-    width: 150px;
-    padding: 15px;
+    width: calc(
+      50% / 2 - 10px
+    ); /* 화면 너비의 절반에서 여백을 뺀 크기로 설정합니다. */
+    max-width: 200px; /* 최대 너비 지정 */
+    height: auto; /* 높이 자동으로 조정 */
+    background-color: #ffffff; /* 배경 색상 설정 */
+    border-radius: 15px; /* 모서리 둥글게 만듦 */
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+    text-align: center; /* 가운데 정렬 */
+    padding: 20px; /* 내부 여백 추가 */
+    margin: 10px; /* 카드 사이 간격 조정 */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* 호버 시 효과 추가 */
   }
 
+  /* 호버 시 카드 스타일 변경 */
+  .card .card-content:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* 그림자 효과 변경 */
+    transform: scale(1.05); /* 확대 효과 추가 */
+  }
+
+  /* 카드 이미지 스타일 수정 */
   .card .card-content img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
+    width: 50px; /* 이미지 너비 조정 */
+    height: 50px; /* 이미지 높이 조정 */
+    border-radius: 50%; /* 원형으로 만들기 */
+    margin-bottom: 10px; /* 하단 여백 추가 */
+    border: black solid 3px; /* 테두리 추가 */
   }
 
+  /* 카드 설명 텍스트 스타일 수정 */
   .card .card-content p {
-    font-size: 14px;
+    margin: 0; /* 기본 마진 제거 */
+    color: #555; /* 텍스트 색상 지정 */
+    font-size: 14px; /* 폰트 크기 조정 */
   }
 
   footer {
